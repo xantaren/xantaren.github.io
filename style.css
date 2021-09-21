@@ -1,0 +1,219 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+}
+
+html,
+body,
+header,
+.view {
+    text-shadow: 0.05em 0.05em 0.05em #333;
+    height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    #myName {
+        display: inline;
+    }
+}
+
+/* Video */
+video {
+    /*position: fixed;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*min-width: 100%;*/
+    /*min-height: 100%;*/
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#video:after {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Video */
+
+/* Navbar */
+
+.navhover:hover {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    -webkit-transform: scale(1.05) !important;
+    -ms-transform: scale(1.05) !important;
+    transform: scale(1.05) !important;
+    z-index: 2;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.sticky + .content {
+    padding-top: 100px;
+}
+
+/* Navbar */
+
+/* Utility */
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px) brightness(50%);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+}
+
+.hov:hover {
+    /*background-color: #ed9600 !important;*/
+    backdrop-filter: blur(8.5px) brightness(30%);
+    /*color: #fff !important;*/
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    /*cursor: pointer !important;*/
+    font-smoothing: subpixel-antialiased;
+    transition: all 0.1s !important;
+    -webkit-transform: scale(1.051) !important;
+    /*-ms-transform: scale(1.12) !important;*/
+    /*transform: scale(1.12) !important;*/
+    z-index: 2;
+}
+
+/* Utility */
+
+/* Contact US Form */
+#name {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 0.3s;
+    -webkit-transition: height 0.3s;
+}
+
+#name:focus {
+    height: 50px;
+    font-size: 16px;
+}
+
+#email {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 0.3s;
+    -webkit-transition: height 0.3s;
+}
+
+#email:focus {
+    height: 50px;
+    font-size: 16px;
+}
+
+#sub {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 0.3s;
+    -webkit-transition: height 0.3s;
+}
+
+#sub:focus {
+    height: 50px;
+    font-size: 16px;
+}
+
+#msg {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 0.3s;
+    -webkit-transition: height 0.3s;
+}
+
+#msg:focus {
+    height: 150px;
+    font-size: 16px;
+}
+
+/* Contact US Form */
+
+/* Map Styling */
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    opacity: 0.6; /*add this*/
+    transition: 1s ease;
+}
+
+.map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.map-container-section:hover {
+    opacity: 1;
+    box-sizing: border-box !important;
+    transition: all 0.1s linear !important;
+    -webkit-transform: scale(1.2) !important;
+    -ms-transform: scale(1.2) !important;
+    transform: scale(1.2) !important;
+    z-index: 2;
+}
+
+/* Map Styling */
+.footer:hover {
+    backdrop-filter: blur(8.5px) brightness(60%);
+}
+
+/*Extra*/
+.divider,
+.footer,
+.navbar {
+    border-radius: 0;
+}
