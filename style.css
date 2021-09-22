@@ -12,12 +12,6 @@ header,
     height: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-    #myName {
-        display: inline;
-    }
-}
-
 /* Video */
 video {
     /*position: fixed;*/
@@ -216,4 +210,20 @@ video {
 .footer,
 .navbar {
     border-radius: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #myName {
+        display: inline;
+    }
+
+    .job-description {
+        margin-left: -1rem
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .job-description {
+        margin-left: -2rem
+    }
 }
