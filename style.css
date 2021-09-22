@@ -84,7 +84,7 @@ video {
 .hov:hover {
     /*background-color: #ed9600 !important;*/
     background: rgba(150, 150, 150, 0.05);
-    backdrop-filter: blur(8.5px) brightness(30%);
+    backdrop-filter: blur(8.5px) brightness(50%);
     /*color: #fff !important;*/
     text-shadow: none !important;
     box-sizing: border-box !important;
