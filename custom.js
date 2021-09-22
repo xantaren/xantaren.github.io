@@ -50,6 +50,6 @@ $(document).ready(function () {
 // Smooth Scrolling End
 
 // Prevent Enter key from submitting form
-$('textarea').keypress(function(e){
+$('textarea').keypress(function (e) {
     e.stopPropagation();
 });
