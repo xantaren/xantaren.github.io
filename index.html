@@ -26,13 +26,13 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+
 <!-- Project Start -->
-<div id="video">
-    <!-- Video -->
-    <video autoplay loop muted playsinline preload>
-        <source src="video.mp4" type="video/mp4">
-    </video>
-    <!-- Video -->
+<div id="main">
 
     <!-- Navbar -->
     <nav class="navbar card navbar-expand-lg navbar-ligh py-1" id="navbar">
@@ -135,7 +135,7 @@
 
                         <!-- Column 2 -->
                         <div class="col-md-6 d-none d-sm-none d-md-block">
-                            <img alt="梁晉偉工作中概念圖，圖源:588ku-pngtree.com" class="img-fluid" src="pics/programmer_pic.png"
+                            <img alt="梁晉偉工作中概念圖，圖源: pngtree.com by 588ku" class="img-fluid" src="pics/programmer_pic.png"
                                  style="width: 70%; height: 70%">
                         </div>
                         <!-- Column 2 -->
@@ -213,7 +213,7 @@
     <section class="pt-5" id="about">
         <div class="card divider p-3 mb-5">
             <h3 class="font-weight-bold text-center text-white pb-2">工作經驗</h3>
-            <p class="text-white text-center  pt-2 mb-2">一些個人小歷史
+            <p class="text-white text-center  pt-2 mb-2">Work Experience
             </p>
         </div>
 
@@ -231,9 +231,10 @@
                                     <h5 class="text-white mb-3">中佑集團<br><span
                                             class="h6">軟體工程師</span></h5>
                                     <ul class="font-weight-light text-white mb-0 job-description">
-                                        <li>Qt (C++) 應用程式開發</li>
+                                        <li>跨平台應用程式開發</li>
                                         <li>Google官方服務應用</li>
-                                        <li>專案管理</li>
+                                        <li>MVC, MVVM 軟體架構概念</li>
+                                        <li>Go (Golang) 跨平台函式庫開發</li>
                                     </ul>
                                 </div>
                             </div>
@@ -246,8 +247,8 @@
                 <div class="col-md-6 mb-4">
                     <div class="card hov">
                         <div class="card-body">
-                            <div class="media">
-                  <span class=" d-inline-flex justify-content-center align-items-center rounded-circle white  mr-4">
+                            <div class="media pb-3">
+                  <span class=" d-inline-flex justify-content-center align-items-center rounded-circle white mr-4">
                     <i class="fas fa-laptop-code fa-2x text-white"></i>
                   </span>
                                 <div class="media-body">
@@ -257,7 +258,7 @@
                                         <li>雲端伺服器(Linux)架設與應用</li>
                                         <li>智慧型行動裝置整合與運用</li>
                                         <li>Android App 智慧型行動裝置程式設計</li>
-                                        <li>Java程式設計</li>
+                                        <li>Java 程式設計</li>
                                         <li>PHP&MySQL 資料庫程式設計</li>
                                     </ul>
                                 </div>
@@ -272,7 +273,7 @@
                     <div class="card hov">
                         <div class="card-body">
                             <div class="media">
-                  <span class=" d-inline-flex justify-content-center align-items-center rounded-circle white  mr-4">
+                  <span class=" d-inline-flex justify-content-center align-items-center rounded-circle white mr-4">
                     <i class="fas fa-dolly-flatbed fa-2x text-white"></i>
                   </span>
                                 <div class="media-body">
@@ -297,7 +298,7 @@
                     <div class="card hov">
                         <div class="card-body">
                             <div class="media">
-                  <span class=" d-inline-flex justify-content-center align-items-center rounded-circle white  mr-4">
+                  <span class=" d-inline-flex justify-content-center align-items-center rounded-circle white mr-4">
                     <i class="fas fa-industry fa-2x text-white"></i>
                   </span>
                                 <div class="media-body">
@@ -413,7 +414,7 @@
                         <div class="map-container-section mb-4" style="height: 400px;">
                             <iframe allowfullscreen=""
                                     aria-hidden="false" frameborder="0" height="450"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931494.086951275!2d120.39540631847024!3d24.219077509854273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917dff97922ef%3A0x87523ee47ea6447f!2z5Y-w5Lit5biC!5e0!3m2!1szh-TW!2stw!4v1616922802532!5m2!1szh-TW!2stw"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.2256805706547!2d120.6353079149341!3d24.16381678438725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693df1bd771567%3A0x529fb0f9d45b4246!2z6byO55ubQkhX5aSn5qiT!5e0!3m2!1sen!2stw!4v1663248342481!5m2!1sen!2stw"
                                     style="border:0;"
                                     tabindex="0" width="600"></iframe>
                         </div>
@@ -465,25 +466,9 @@
     <!-- Contact Us -->
 
     <!-- Footer -->
-    <footer class="text-center text-white card pt-3 footer">
-        <!-- Social Icons -->
-        <div class="pb-2">
-
-            <a href="https://www.facebook.com/AureusBeast/" target="_blank">
-                <i class="fab fa-facebook-f fa-2x mr-3 text-white navhover"></i>
-            </a>
-
-            <a href="https://www.instagram.com/j.stands.4.jayson/" target="_blank">
-                <i class="fab fa-instagram fa-2x mr-3 text-white navhover"></i>
-            </a>
-
-            <a href="https://github.com/xantaren" target="_blank">
-                <i class="fab fa-github fa-2x mr-3 text-white navhover"></i>
-            </a>
-        </div>
-
+    <footer class="text-center text-white py-3 card footer">
         <!-- Copyright -->
-        <div class="text-white  py-3">
+        <div class="text-white">
             © 2021 Copyright:
             <a class="text-success" href="" target="_blank">Jayson Liang</a>
         </div>
