@@ -1,5 +1,5 @@
 # xantaren.github.io
-This website is also accessible via http://jaysonliang.com.
+This website is also accessible via https://jaysonliang.com.
 
 ### Tools
 This website was built using [Hugo](https://gohugo.io/), a popular open-source static site generator. Hugo is fast, flexible, and easy to use, making it a great choice for creating websites of all sizes.
