@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>What I’m doing now</title>
+      <link>/now/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/now/</guid>
+      <description>A now page? Yes, a /now1 page. As none of you may know, I&amp;rsquo;ve deleted all social media apps from my phone earlier this year except LinkedIn, but I still feel like I&amp;rsquo;m kinda obligated to leave bread crumbs as to what I&amp;rsquo;m up to, so yeah, a now page. Think of it as Facebook on tranquilizers, with posts that only come once or twice a year.
+Japan is inspiring Four days in Osaka and a day in Kyoto was all it took to get me hooked.</description>
+    </item>
+    
+    <item>
       <title>Markdown Syntax Guide</title>
       <link>/posts/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
