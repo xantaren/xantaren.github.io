@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jaysonliang.com/now/</loc>
+    <lastmod>2024-07-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jaysonliang.com/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,7 +17,10 @@
     <loc>https://jaysonliang.com/posts/idle-games-ruins-attention/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jaysonliang.com/now/</loc>
+    <loc>https://jaysonliang.com/then/now-2024-05-23/</loc>
+    <lastmod>2024-05-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jaysonliang.com/then/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jaysonliang.com/categories/</loc>
